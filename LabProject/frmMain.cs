@@ -115,7 +115,6 @@ namespace IE322_App_KAU
                             }
 
                             btnLogin.Text = "Logout";
-                            toolStripStatusLabel1.Text = "Hi "+ username+ ", you are logged in.";
                             // this.Width = 1600;
                             break; // come out of while loop
                         }//endif
@@ -126,7 +125,6 @@ namespace IE322_App_KAU
             else 
             {
                 btnLogin.Text = "Login";
-                toolStripStatusLabel1.Text = "You are logged out.";
                 loggedIn = false;
 
                 txtUser.Clear();
